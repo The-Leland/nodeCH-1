@@ -1,0 +1,51 @@
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 700px;
+    height: 150px; 
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    width: 33.33%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col1 {
+    background-color: #FF5733; 
+    color: white;
+}
+
+.col2 {
+    background-color: #33FF57; 
+    color: black;
+}
+
+.col3 {
+    background-color: #3357FF; 
+    color: white;
+}
